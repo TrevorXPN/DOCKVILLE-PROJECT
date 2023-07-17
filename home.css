@@ -1,0 +1,17 @@
+.navbar {
+    background-color: beige ;
+}
+body {
+    background-image: url("img4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 753px;
+}
+.navbar-brand {
+    font-size: 40px;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    font-family: manuel;
+}
