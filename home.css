@@ -22,28 +22,45 @@ body {
 #navbar1 {
 background-color: beige ;
 }
-.container-fluid{
-    background-color: beige ;
-}
+/* .container-fluid{
+    background-color: beige ; */
+/* } */
 .navbar navbar-expand-lg bg-body-tertiary {
     background-color: beige ;
 }
 /* end of nav bar css */
 
-.card-img1 {
-    height: 300px;
-    /* padding: 50px; */
-    width: fill;
-    border-radius: 8px;
-    overflow: hidden;
+/* CARD CSS */
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px; /* Adjust as needed */
 }
 
-.card text-bg-dark {
-    height: 300px;
-    padding: 50px;
-    margin: 40px;
-    width: fill;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    overflow: hidden;
+.card {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
 }
+
+.card:hover {
+    background-color: #0056b3;
+}
+
