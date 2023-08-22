@@ -31,36 +31,73 @@ background-color: beige ;
 /* end of nav bar css */
 
 /* CARD CSS */
-/* body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-} */
+@import url('https://fonts.googleapis.com/css?family=Poppins|Ubuntu&display=swap');
+*{box-sizing: border-box;margin: 0;padding: 0}
 
-.card-container {
-    display: flex;
-    justify-content: space-between;
-    max-width: 800px; /* Adjust as needed */
+body{
+    font-family: 'Ubuntu',sans-serif
 }
 
-.card {
-    flex: 1;
-    margin: 10px;
-    padding: 20px;
-    background-color: #007BFF;
-    color: white;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 18px;
+.box{
+    position: relative;
+    width: 100%;padding-right: 15px;
+    padding-left: 15px
+}
+
+.our-services{
+    margin-top: 75px;
+    padding-bottom: 30px;
+    padding: 0 60px;
+    min-height: 198px;
     text-align: center;
-    transition: background-color 0.3s ease-in-out;
+    border-radius: 10px;
+    background-color:black;
+    transition: all .4s ease-in-out;
+    box-shadow: 0 0 25px 0 rgba(20,27,202,.17)
 }
 
-.card:hover {
-    background-color: #0056b3;
+.our-services .icon{
+    margin-bottom: -21px;
+    transform: translateY(-50%);
+    text-align: center
+}
+
+.our-services:hover h4, .our-services:hover p{
+    color: #fff
+}
+
+.speedup:hover{
+    box-shadow: 0 0 25px 0 rgba(20,27,201,.05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%)
+}
+
+.settings:hover{
+    box-shadow: 0 0 25px 0 rgba(20,27,201,.05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%)
+}
+
+.privacy:hover{
+    box-shadow: 0 0 25px 0 rgba(20,27,201,.05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #3615e7 0%, #44a2f6 100%)
+}
+
+.backups:hover{
+    box-shadow: 0 0 25px 0 rgba(20,27,201,.05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #fc6a0e 0%, #fdb642 100%)
+}
+
+.ssl:hover{box-shadow: 0 0 25px 0 rgba(20,27,201,.05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #8d40fb 0%, #5a57fb 100%)
+}
+
+.database:hover{
+    box-shadow: 0 0 25px 0 rgba(20,27,201,.05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%)
 }
 
